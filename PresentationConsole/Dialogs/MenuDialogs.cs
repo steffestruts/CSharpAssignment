@@ -34,10 +34,6 @@ public class MenuDialogs(IContactService contactService)
                     Console.WriteLine("\nHej då!");
                     Environment.Exit(-1);
                     return;
-                // Rensar konsolfönstret - underlättar för användaren
-                case "clr":
-                    Console.Clear();
-                    break;
                 // Ogiltig inmatning - Försök igen
                 default:
                     Console.Clear();
