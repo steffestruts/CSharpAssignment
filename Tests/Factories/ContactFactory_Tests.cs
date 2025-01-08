@@ -36,5 +36,9 @@ public class ContactFactory_Tests
         Assert.Equal(contactRegistrationForm.FirstName, result.FirstName);
         Assert.Equal(contactRegistrationForm.LastName, result.LastName);
         Assert.Equal(contactRegistrationForm.Email, result.Email);
+        Assert.Equal(contactRegistrationForm.PhoneNumber, result.PhoneNumber);
+        Assert.Equal(contactRegistrationForm.Address, result.Address);
+        Assert.Equal(contactRegistrationForm.PostalCode, result.PostalCode);
+        Assert.Equal(contactRegistrationForm.City, result.City);
     }
 }
